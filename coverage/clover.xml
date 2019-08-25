@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1566739530158" clover="3.2.0">
+  <project timestamp="1566739530158" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6" elements="22" coveredelements="22" complexity="0" loc="12" ncloc="12" packages="1" files="3" classes="3"/>
+    <file name="fetch-action.js" path="/Users/chris.vibert/personal/fetch-middleware/src/fetch-action.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="2" type="stmt"/>
+    </file>
+    <file name="fetch-middleware.js" path="/Users/chris.vibert/personal/fetch-middleware/src/fetch-middleware.js">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+      <line num="1" count="4" type="stmt"/>
+      <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="6" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+    </file>
+    <file name="index.js" path="/Users/chris.vibert/personal/fetch-middleware/src/index.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+  </project>
+</coverage>
