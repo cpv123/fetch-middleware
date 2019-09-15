@@ -1,4 +1,9 @@
-const fetchMiddleware = ({ dispatch }) => next => action => {
+import { Dispatch, GenericAction } from './types';
+
+const fetchMiddleware = 
+( { dispatch }: { dispatch: Dispatch }) => 
+(next: Dispatch) => 
+(action: GenericAction) => {
 	if (!action.type.startsWith('@@')) {
 		return next(action)
 	}
