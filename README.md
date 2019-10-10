@@ -20,18 +20,18 @@ export default connect(null, { getData })(Child)
 
 const actionHandlers = {
   'GET_DATA_START': (state) => ({
-		...state,
-		isLoading: true,
-	}),
-	'GET_DATA_RECEIVE': (state, action) => ({
-		...state,
-		isLoading: false,
-		data: action.payload,
-	}),
-	'GET_DATA_ERROR': (state) => ({
-		...state,
-		isLoading: false,
-		isError: true,
-	}),
+    ...state,
+    isLoading: true,
+   }),
+   'GET_DATA_RECEIVE': (state, action) => ({
+	...state,
+	isLoading: false,
+	data: action.payload,
+    }),
+    'GET_DATA_ERROR': (state) => ({
+	...state,
+	isLoading: false,
+	isError: true,
+    }),
 }
 ```
